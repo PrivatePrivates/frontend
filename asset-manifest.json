@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/mybin/static/css/main.7d180cbf.chunk.css",
+    "main.js": "/mybin/static/js/main.639827de.chunk.js",
+    "main.js.map": "/mybin/static/js/main.639827de.chunk.js.map",
+    "runtime-main.js": "/mybin/static/js/runtime-main.37bc7f5c.js",
+    "runtime-main.js.map": "/mybin/static/js/runtime-main.37bc7f5c.js.map",
+    "static/css/2.4659568d.chunk.css": "/mybin/static/css/2.4659568d.chunk.css",
+    "static/js/2.67fc98d4.chunk.js": "/mybin/static/js/2.67fc98d4.chunk.js",
+    "static/js/2.67fc98d4.chunk.js.map": "/mybin/static/js/2.67fc98d4.chunk.js.map",
+    "static/js/3.7ee5c7a5.chunk.js": "/mybin/static/js/3.7ee5c7a5.chunk.js",
+    "static/js/3.7ee5c7a5.chunk.js.map": "/mybin/static/js/3.7ee5c7a5.chunk.js.map",
+    "index.html": "/mybin/index.html",
+    "static/css/2.4659568d.chunk.css.map": "/mybin/static/css/2.4659568d.chunk.css.map",
+    "static/css/main.7d180cbf.chunk.css.map": "/mybin/static/css/main.7d180cbf.chunk.css.map",
+    "static/js/2.67fc98d4.chunk.js.LICENSE.txt": "/mybin/static/js/2.67fc98d4.chunk.js.LICENSE.txt",
+    "static/media/Nav-logo.3c3501d0.png": "/mybin/static/media/Nav-logo.3c3501d0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37bc7f5c.js",
+    "static/css/2.4659568d.chunk.css",
+    "static/js/2.67fc98d4.chunk.js",
+    "static/css/main.7d180cbf.chunk.css",
+    "static/js/main.639827de.chunk.js"
+  ]
+}
