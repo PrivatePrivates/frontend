@@ -9,16 +9,18 @@ function NavbarDash() {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand style={{ textAlign: "center", color: "#f4abba" }}>
-            <Image
-              alt=""
-              src={logo}
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-            />
-            Where you at ?
-          </Navbar.Brand>
+          <a style={{ textDecoration: "none" }} href="privateprivates.ml">
+            <Navbar.Brand style={{ textAlign: "center", color: "#f4abba" }}>
+              <Image
+                alt=""
+                src={logo}
+                width="30"
+                height="30"
+                className="d-inline-block align-top"
+              />
+              Where you at ?
+            </Navbar.Brand>
+          </a>
         </Container>
       </Navbar>
       <Container>
@@ -34,8 +36,30 @@ function NavbarDash() {
                     <Form.Label>
                       <h2>Upload Picture</h2>
                     </Form.Label>
+
                     <Form.Control
                       type="file"
+                      onChange={(e) => {
+                        console.log(e.target.files[0]);
+                      }}
+                    />
+                    <Form.Label>
+                      <h3>IG Username</h3>
+                    </Form.Label>
+                    <Form.Control
+                      type="text"
+                      onChange={(e) => {
+                        console.log(e.target.files[0]);
+                      }}
+                    />
+                  </Form.Group>
+                  <Form.Group controlId="formFile" className="mb-3">
+                    <Form.Label>
+                      <h2>Or</h2>
+                      <h2>Instagram Image URL</h2>
+                    </Form.Label>
+                    <Form.Control
+                      type="text"
                       onChange={(e) => {
                         console.log(e.target.files[0]);
                       }}
