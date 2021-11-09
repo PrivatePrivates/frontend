@@ -44,26 +44,16 @@ function NavbarDash() {
                       }}
                     />
                     <Form.Label>
-                      <h3>IG Username</h3>
+                      <h3>Instagram Username</h3>
                     </Form.Label>
-                    <Form.Control
-                      type="text"
-                      onChange={(e) => {
-                        console.log(e.target.files[0]);
-                      }}
-                    />
+                    <Form.Control type="text" placeholder="Enter IG Username" />
                   </Form.Group>
                   <Form.Group controlId="formFile" className="mb-3">
                     <Form.Label>
                       <h2>Or</h2>
                       <h2>Instagram Image URL</h2>
                     </Form.Label>
-                    <Form.Control
-                      type="text"
-                      onChange={(e) => {
-                        console.log(e.target.files[0]);
-                      }}
-                    />
+                    <Form.Control type="text" placeholder="IG URL of Image" />
                   </Form.Group>
                   <Button
                     className="w-100 mt-4"
