@@ -1,10 +1,9 @@
 import React from "react";
 import { Navbar, Container, Card, Button, Form, Image } from "react-bootstrap";
 import logo from "../images/Nav-logo.png";
+import Swal from "sweetalert2";
 
 function NavbarDash() {
-  // const styles = {};
-  const handleSubmit = () => {};
   return (
     <>
       <Navbar bg="dark" variant="dark">
@@ -69,8 +68,18 @@ function NavbarDash() {
                   </Form.Group>
                   <Button
                     className="w-100 mt-4"
-                    type="submit"
-                    onClick={handleSubmit}
+                    type="button"
+                    onClick={() => {
+                      Swal.fire({
+                        title: "Sent URL to backend",
+                        showClass: {
+                          popup: "animate__animated animate__fadeInDown",
+                        },
+                        hideClass: {
+                          popup: "animate__animated animate__fadeOutUp",
+                        },
+                      });
+                    }}
                   >
                     Find Match
                   </Button>
