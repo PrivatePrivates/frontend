@@ -33,7 +33,7 @@ function NavbarDash() {
               <Card.Body className="p-5">
                 <Form>
                   <Form.Group controlId="formFile" className="mb-3">
-                    <Form.Label>
+                    {/* <Form.Label>
                       <h2>Upload Picture</h2>
                     </Form.Label>
 
@@ -42,16 +42,28 @@ function NavbarDash() {
                       onChange={(e) => {
                         console.log(e.target.files[0]);
                       }}
-                    />
+                    /> */}
                     <Form.Label>
-                      <h3>Instagram Username</h3>
+                      <h3 style={{ textAlign: "center", color: "#ff4a6f" }}>
+                        Instagram Username
+                      </h3>
                     </Form.Label>
                     <Form.Control type="text" placeholder="Enter IG Username" />
                   </Form.Group>
                   <Form.Group controlId="formFile" className="mb-3">
                     <Form.Label>
-                      <h2>Or</h2>
-                      <h2>Instagram Image URL</h2>
+                      <h2
+                        style={{
+                          textAlign: "center",
+                          margin: "10px",
+                          color: "#8a8a8a",
+                        }}
+                      >
+                        Or
+                      </h2>
+                      <h3 style={{ textAlign: "center", color: "#ff4a6f" }}>
+                        Instagram Image URL
+                      </h3>
                     </Form.Label>
                     <Form.Control type="text" placeholder="IG URL of Image" />
                   </Form.Group>
