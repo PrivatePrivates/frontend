@@ -1,12 +1,12 @@
 import "./App.css";
-import Dashboard from "./components/Dashboard";
+import Deck from "./components/Slider/Slider";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
       <Router>
-        <Route path="/" component={Dashboard} />
+        <Route exact path="/" component={Deck} />
       </Router>
     </>
   );
