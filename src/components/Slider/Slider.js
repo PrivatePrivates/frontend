@@ -31,11 +31,19 @@ export default function Slider() {
       {dataSlider.map((obj, index) => {
         return (
           <div
+            id={obj.id}
             key={obj.id}
             className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
           >
-            <a href={obj.result} target="_blank">
-              <img src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.jpg`} />
+            <a
+              href={dataSlider[slideIndex - 1].result}
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                alt={`img${index + 1}.jpg`}
+                src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.jpg`}
+              />
             </a>
           </div>
         );
